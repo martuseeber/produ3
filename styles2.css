@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar{
+    background-color: #252525!important;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color:#fa7b00!important;
+}
+.icono-index{
+    color: #fa7b00;
+}
+.a-registro{
+    position: fixed;
+}
+.a-registro, .a-redes{
+    color: #fa7b00;
+}
+.a-registro, .a-redes:hover{
+    color: #ff8d1b;
+}
+.a-redes{
+    padding-right: 1cm;
+}
+#carousel_inicio{
+    background-color: rgb(219, 189, 189);
+    height: 500px;
+    padding: 0cm;
+
+}
+.carousel-caption {
+    position: absolute;
+    top:15%;
+    right: 15%;
+    bottom: 1.25rem;
+    padding-right: 7rem;
+    text-align: left;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+}
+
+#h1-index{
+    font-family: 'Permanent Marker', cursive;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+
+#modulo2-index{
+    height: 350px;
+    margin: 0cm;
+}
+#logo-header{
+    width: 50px;
+    height: 50px;
+}
+.navbar-nav{
+    margin-right:0cm;
+}
+#cajas-index{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+.card-body{
+    text-align: center;
+}
+.card-title{
+    margin-bottom: 1.2rem;
+}
+#boton-index{
+    background-color:#fa7b00;
+}
+#boton-index:hover{
+    background-color: #ff8d1b;
+}
+#footer{
+    background-color:#252525;
+    height: 80px;
+    margin: auto;
+    padding: 0cm;
+}
+#texto{
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+#redes{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding-left: 15rem;
+}
+
+
+/*FINAL ESTILOS INDEX*/
+#seccion_contacto{
+    height: 500px;
+    margin: 0cm;
+    padding: 0cm;
+}
+
+#foto_contacto{
+    background-color: blueviolet;
+}
+#formulario_contacto{
+    background-color: aqua;
+}
+
+#sucursales_contacto{
+    height: 450px;
+}
+
+#caja1_contacto{
+    background-color: rgb(42, 138, 165);
+    height: 150px;
+}
+#caja2_contacto{
+    background-color: rgb(40, 77, 87);
+    height: 150px;
+}
+#caja3_contacto{
+    background-color: rgb(32, 207, 255);
+    height: 150px;
+}
+
+@media (min-width: 350px) and (max-width:768px) {
+    #texto{
+        display: none;
+    }
+    #foto_contacto{
+        display: none;
+    }
+}
+
+@media (min-width: 350px) and (max-width:1200px) {
+    #foto_contacto{
+        display: none;
+    }
+}
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav {
+        margin-left: 1000px;
+    }
+}
+/*FINAL ESTILOS CONTACTO*/
+
+#header_productos {
+    background-color: blueviolet;
+}
+
+#modulo1 {
+    height: 80px;
+}
+
+#marca {
+    background-color: rgb(0, 110, 255);
+}
+
+#botonera {
+    background-color: darkgreen;
+}
+
+#registro {
+    background-color: fuchsia;
+}
+
+#modulo2, #modulo3, #modulo4, #modulo5 {
+    height: 400px;
+}
+
+#banner {
+    background-color: chocolate;
+    height: 300px;
+}
+
+#producto1 {
+    background-color: darksalmon;
+}
+
+#producto2 {
+    background-color: aqua
+}
+
+#producto3 {
+    background-color: dodgerblue;
+}
+
+#producto4 {
+    background-color: gold;
+}
+
+#producto5 {
+    background-color:darkred;
+}
+
+#producto6 {
+    background-color: hotpink;
+}
+
+#producto7 {
+    background-color: darkkhaki;
+}
+
+#producto8 {
+    background-color: darkgreen;
+}
+
+#producto9 {
+    background-color: darkorange;
+}
+
+#section_productos {
+    background-color: crimson;
+    height: 1100px;  
+}
+
+#footer_productos {
+    background-color: chocolate;
+    height: 50px;
+}
+
+/*FINAL ESTILOS PRODUCTOS*/
+
+#section_registro {
+    height: 1000px;
+    background-color: cornflowerblue;
+}
+
+#box_registro {
+    background-color: cornflowerblue;
+}
+
+#modulo5 {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+/*FINAL ESTILOS REGISTRO*/
