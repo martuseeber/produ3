@@ -3,6 +3,14 @@
 *{
     font-family: 'Montserrat', sans-serif;
 }
+.card-mobile{
+    display: none;
+}
+#cabecera_inicio{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;}
 .navbar{
     background-color: #252525!important;
 }
@@ -14,9 +22,6 @@
 }
 .icono-index{
     color: #fa7b00;
-}
-.a-registro{
-    position: fixed;
 }
 .a-registro, .a-redes{
     color: #fa7b00;
@@ -137,15 +142,40 @@
     height: 150px;
 }
 
-@media (min-width: 350px) and (max-width:768px) {
+@media (min-width: 350px) and (max-width:767px) {
     #texto{
         display: none;
+    }
+    #redes{
+        padding: 0rem;
+        justify-content: center;
+    }
+    .a-redes{
+        padding-left: 1cm;
     }
     #foto_contacto{
         display: none;
     }
 }
-
+@media (min-width:768px) and (max-width:1000px) {
+    #texto,h5{
+        font-size: 0.95rem;
+        margin:0cm;
+    }
+    #redes{
+        padding-left: 3rem;
+    }
+    .card-index{
+        margin-bottom: 1cm;
+    }
+    #h1-index{
+        font-size: 2rem;
+    }
+    .carousel-caption,h4 {
+        font-size: 1rem;
+    }
+    
+}
 @media (min-width: 350px) and (max-width:1200px) {
     #foto_contacto{
         display: none;
@@ -155,6 +185,43 @@
 @media (min-width: 992px){
     .navbar-expand-lg .navbar-nav {
         margin-left: 1000px;
+    }
+}
+@media (min-width:350px) and (max-width:535px) {
+    #texto,h5{
+        font-size: 0.95rem;
+        margin:0cm;
+    }
+    #redes{
+        padding-left: 3rem;
+    }
+    .card-index{
+        margin-bottom: 1cm;
+    }
+    #h1-index{
+        font-size: 2rem;
+    }
+    .carousel-caption,h4 {
+        font-size: 1rem;
+    }
+    .carousel{
+        display: none;
+    }
+    .card-mobile{
+        display: flex;
+        border-radius: 0cm;
+    }
+    .card-title-m{
+        font-family: 'Permanent Marker', cursive;
+        font-style: italic;
+        font-weight: 900;
+        font-size: 3rem;
+        display: flex;
+        justify-content: center;    
+    }
+    #redes{
+        display: flex;
+        padding: 0cm;
     }
 }
 /*FINAL ESTILOS CONTACTO*/
