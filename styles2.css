@@ -8,11 +8,36 @@
 }
 #cabecera_inicio{
     display: flex;
-    align-content: center;
-    align-items: center;
-    justify-content: space-around;}
+    justify-content: space-between;
+}
 .navbar{
     background-color: #252525!important;
+}
+#boton-menu{
+    padding-right: 0cm;
+}
+.navbar-collapse{
+    padding-left: 0.5cm;
+}
+#marca, #registro{
+    display: flex;
+    justify-content: center;
+}
+#registro-mobile{
+    display: none;
+}
+.menu{
+    color: white;
+}
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+    justify-content: flex-end;
+}
+#boton-sesion{
+    background-color: #fa7b00;
+    color: white;
+}
+#boton-sesion:hover{
+    background-color: #ad5d0d;
 }
 .nav-link{
     color: white;
@@ -63,11 +88,17 @@
     margin: 0cm;
 }
 #logo-header{
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
+    margin-top: 0.25cm;
+    margin-bottom: 0.25cm;
 }
 .navbar-nav{
     margin-right:0cm;
+    display: flex;
+    align-content: flex-end;
+    align-items: flex-end;
+    margin-top: 0.5cm;
 }
 #cajas-index{
     display: flex;
@@ -183,8 +214,14 @@
 }
 
 @media (min-width: 992px){
-    .navbar-expand-lg .navbar-nav {
-        margin-left: 1000px;
+    
+    .navbar-nav {
+        margin-top: 0cm;}
+    #boton-sesion{
+        margin-left: 1cm;
+    }
+    .navbar-expand-lg .navbar-collapse{
+        justify-content: flex-end;
     }
 }
 @media (min-width:350px) and (max-width:535px) {
@@ -226,25 +263,6 @@
 }
 /*FINAL ESTILOS CONTACTO*/
 
-#header_productos {
-    background-color: blueviolet;
-}
-
-#modulo1 {
-    height: 80px;
-}
-
-#marca {
-    background-color: rgb(0, 110, 255);
-}
-
-#botonera {
-    background-color: darkgreen;
-}
-
-#registro {
-    background-color: fuchsia;
-}
 
 #modulo2, #modulo3, #modulo4, #modulo5 {
     height: 400px;
